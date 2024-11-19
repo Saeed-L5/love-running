@@ -28,25 +28,59 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="signup.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
     </header>
     <!--Main content-->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+                <h2>Let's get you signed up!" <i class="fa-solid fa-heart-pulse"></i></h2>
+                <label for="first-name">First Name</label>
+                <input id="first-name" name="first-name" type="text" class="text-input" required>
+                <br>
+                <label for="last-name">last Name</label>
+                <input id="last-name" name="last-name" type="text" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input id="email-address" name="email-address" type="text" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div id="road">
+                        <label for="road">Road</label>
+                        <input type="radio" id="road" name="running-preference" value="road" required checked>
+                    </div>
+                    <div id="trail">
+                        <label for="trail">Trail</label>
+                        <input type="radio" id="trail" name="running-preference" value="trail" required checked>
+                    </div>
+                    <div id="both">
+                        <label for="both">Both</label>
+                        <input type="radio" id="both" name="running-preference" value="both" required checked>
+                    </div>
+                </div>
+                <button type="submit" class="join-button"> Let's Run!</button>
+
+            </form>
+
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
             <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit our twitter page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a></li>
+                    aria-label="Visit our twitter page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a></li>
             <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a></li>
+                    aria-label="Visit our youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a></li>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+                    aria-label="Visit our instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
         </ul>
     </footer>
 

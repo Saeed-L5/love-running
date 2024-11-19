@@ -200,7 +200,14 @@ hr {
     padding: 5%;
     color: #3a3a3a;
 }
-
+/* media query: forlarge or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        /* to create columns for multi photos in one page */
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -252,6 +259,10 @@ hr {
     text-align: end;
     align-self: flex-end;
    }
+   /* Gallery */
+   #photos {
+    column-count: 3;
+   }
    
    
 }
@@ -264,6 +275,10 @@ hr {
     
 
     }    
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
 }
 /* Media query for screens of 1200px and wider */
 @media  screen and ( min-width: 1200px) {
