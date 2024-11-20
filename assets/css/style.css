@@ -196,7 +196,39 @@ hr {
     flex-grow: 1;
     padding: 20PX 10% 0 10%;
 }
-
+#signup-form {
+    background-color: rgba(60, 60, 60, .6);
+    color:#fafafa;
+    padding: 30px;
+}
+#signup h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+.text-input {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    /* you can see throught the input*/
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+}
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.join-button {
+    background-color:  #454b1b;
+    color: #fafafa;
+    border-radius: 2px;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
+}
 
 /*Footer*/
 #social-networks {
